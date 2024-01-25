@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="C1" />
+    <node id="C2" />
+    <node id="D1" />
+    <node id="D2" />
+	<node id="D3" />
+    <node id="A1" />
+    <node id="A2" />
+    <node id="A3" />
+	<node id="ipnode-1" />
+	<node id="ipnode-2" />
+	<node id="ipnode-3" />
+    <edge source="C1" target="C2" />
+	<edge source="C1" target="D1" />
+	<edge source="C1" target="D2" />
+	<edge source="C1" target="D3" />
+	<edge source="C2" target="D1" />
+	<edge source="C2" target="D2" />
+	<edge source="C2" target="D3" />
+	<edge source="D1" target="A1" />
+	<edge source="D1" target="A2" />
+	<edge source="D2" target="A2" />
+	<edge source="D2" target="A3" />
+	<edge source="D2" target="A1" />
+	<edge source="D3" target="A2" />
+	<edge source="D3" target="A3" />
+	<edge source="A1" target="ipnode-1" />
+	<edge source="A2" target="ipnode-2" />
+	<edge source="A3" target="ipnode-3" />
+  </graph>
+</graphml>

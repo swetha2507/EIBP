@@ -1,0 +1,171 @@
+
+Timestamp - 2023-11-16 16:09:07.274406519
+My Tier Value = 3
+Getting IP../
+
+IP = 192.168.9.254
+Subnet Mask = 24
+Port Name = eth3
+
+
+Converting IP to binary...
+
+
+ Entering getMyTierAddresses
+ Created a socket for auto address label! 
+ Sending NULL join request to all its interfaces, interfaceListSize = 4  payloadSize=1
+Timestamp - 2023-11-16 16:09:08.275007793
+ Waiting for MESSAGE_TYPE_LABELS_AVAILABLE message
+ Sending NULL join request to all its interfaces, interfaceListSize = 4  payloadSize=1
+Timestamp - 2023-11-16 16:09:09.275228226
+ Waiting for MESSAGE_TYPE_LABELS_AVAILABLE message
+ Sending NULL join request to all its interfaces, interfaceListSize = 4  payloadSize=1
+Timestamp - 2023-11-16 16:09:10.275371821
+ Waiting for MESSAGE_TYPE_LABELS_AVAILABLE message
+ Sending NULL join request to all its interfaces, interfaceListSize = 4  payloadSize=1
+Timestamp - 2023-11-16 16:09:11.275517892
+ Waiting for MESSAGE_TYPE_LABELS_AVAILABLE message
+ Sending NULL join request to all its interfaces, interfaceListSize = 4  payloadSize=1
+Timestamp - 2023-11-16 16:09:12.275665558
+ Waiting for MESSAGE_TYPE_LABELS_AVAILABLE message
+ Received MESSAGE_TYPE_LABELS_AVAILABLE_2 
+
+ Number of Labels available = 1
+Port : eth1
+Port_tag : 3
+ Label Length = 7
+
+ Label  = 3.1.2.3  Label length= 7
+
+insertTierAddr is called , label=3.1.2.3 labelLength=7
+
+Adding the label to the list
+
+Adding all other labels to the list
+ 3.1.2.3
+inTier : 3.1.2.3
+Sending MESSAGE_TYPE_MY_LABELS_ADD message to - eth1 at 
+Sending MESSAGE_TYPE_MY_LABELS_ADD message to - eth2 at 
+Sending MESSAGE_TYPE_MY_LABELS_ADD message to - eth3 at 
+ My labels are: 3.1.2.3 
+
+ Exiting getMyTierAddresses
+ MNLR started  ... 
+Control PayLoad 0 --- 3.1.2.3
+
+ My labels are: 3.1.2.3 
+
+Tier Address		IP Address
+3.1.2.3			192.168.9.0/24
+
+ Processing messages now...
+
+ Sending NULL join request to all its interfaces, interfaceListSize = 4 payloadSize=1
+ endNWSend Called : eth1
+
+Timestamp - 2023-11-16 16:09:12.276166267
+_get_MACTest : checkMSGType=8
+
+ Received MESSAGE_TYPE_LABELS_AVAILABLE 
+
+Timestamp - 2023-11-16 16:09:12.276318283TEST: Message Counter 1
+
+Port : eth2
+Port_tag : 3
+ Number of Labels available = 1
+
+ Label Length = 7
+
+ Label  =3.1.1.3 Label length= 7
+
+insertTierAddr is called , label=3.1.1.3 labelLength=7
+
+ findTierAddr : Label to check=3.1.1.3, current label=3.1.2.3 
+
+insertTierAddr checkNode=1 0checking my Tier Addresses
+Adding the label to the list 3.1.1.3
+Adding all other labels to the list
+insertion success
+Tier Address		IP Address
+3.1.2.3			192.168.9.0/24
+3.1.1.3			192.168.9.0/24
+
+inTier : 3.1.1.3
+Sending MESSAGE_TYPE_MY_LABELS_ADD message to - eth1 at 
+Sending MESSAGE_TYPE_MY_LABELS_ADD message to - eth2 at 
+Sending MESSAGE_TYPE_MY_LABELS_ADD message to - eth3 at 
+Tier Address		IP Address
+3.1.2.3			192.168.9.0/24
+3.1.1.3			192.168.9.0/24
+endNetworkSend after insert
+ endNWSend Called : eth2
+
+Timestamp - 2023-11-16 16:09:12.276489384
+ endNWSend Called : eth1
+
+Timestamp - 2023-11-16 16:09:12.276569474
+ endNWSend Called : eth2
+
+Timestamp - 2023-11-16 16:09:12.276599170
+Tier Address		IP Address
+3.1.2.3			192.168.9.0/24
+3.1.1.3			192.168.9.0/24
+
+ My labels are:  3.1.2.3 ,3.1.1.3 
+
+ Calling printMyLabels linenumber =3252
+CONV_TIME:1700150952.276645
+ETH_SIZE:192
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=8
+
+ Received MESSAGE_TYPE_LABELS_AVAILABLE 
+
+Timestamp - 2023-11-16 16:09:12.276716760TEST: Message Counter 1
+
+ Number of Labels available = 1
+
+ Label Length = 7
+
+ Label  =3.1.2.3 Label length= 7
+
+insertTierAddr is called , label=3.1.2.3 labelLength=7
+
+ findTierAddr : Label to check=3.1.2.3, current label=3.1.2.3 
+
+insertTierAddr checkNode=0 
+Tier Address		IP Address
+3.1.2.3			192.168.9.0/24
+3.1.1.3			192.168.9.0/24
+
+ My labels are:  3.1.2.3 ,3.1.1.3 
+
+ Calling printMyLabels linenumber =3252
+CONV_TIME:1700150952.276838
+ETH_SIZE:192
+TEST: Message Counter 2
+TEST: Message Counter 2
+TEST: Message Counter 3
+
+ MessageCount >= 3 : eth2
+TEST: other node removed from stagging value was eth2
+
+TEST: Node added successfully 2.1.1
+
+*************** Neighbor Table *************
+ ------- 2.1.1 -----
+
+ My labels are:  3.1.2.3 ,3.1.1.3 
+TEST: Message Counter 3
+
+ MessageCount >= 3 : eth1
+TEST: Head node removed from stagging value was eth1
+
+TEST: Node appended successfully 2.1.2
+
+*************** Neighbor Table *************
+ ------- 2.1.1 -----
+ ------- 2.1.2 -----
+
+ My labels are:  3.1.2.3 ,3.1.1.3 

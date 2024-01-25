@@ -1,0 +1,12 @@
+I will check it out. Can you confirm the below instructions to run the traffic generator?
+
+Syntax to run on sending node[there should be a results.pcap file on the receiving node]:
+
+sudo python3 TrafficGeneratorMNLR.py -i [Destination of ipnode] -u ucast_test -c 50
+
+Syntax to run on receiving node:
+
+sudo python3 TrafficGeneratorMNLR.py -r ucast_test
+
+Then,
+sudo python3 TrafficGeneratorMNLR.py -a ucast_test 

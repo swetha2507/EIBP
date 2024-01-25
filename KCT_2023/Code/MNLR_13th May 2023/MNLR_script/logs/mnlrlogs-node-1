@@ -1,0 +1,2160 @@
+
+Timestamp - 2023-05-13 07:39:25.584612581
+My Tier Value = 1
+
+insertTierAddr is called , label=1.2 labelLength=3
+tierAddr of Tier 1 Node = 1.2
+Converting IP to binary...
+
+
+ MNLR started  ... 
+Control PayLoad 0 --- 1.2
+
+ My labels are: 1.2 
+
+ Processing messages now...
+TEST: Message Counter 1
+TEST: Message Counter 2
+TEST: Message Counter 3
+
+ MessageCount >= 3 : eth2
+TEST: Head node removed from stagging value was eth2
+
+Port : eth2
+Port_tag : 1
+TEST: Node added successfully 1.1
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+
+ My labels are: 1.2 
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:37.468053775TEST: Message Counter 1
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+Port : eth4
+Port_tag : 2
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977977.471070
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:38.468840350TEST: Message Counter 2
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977978.471658
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:39.469699726TEST: Message Counter 3
+
+ MessageCount >= 3 : eth4
+TEST: Head node removed from stagging value was eth4
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977979.472732
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:40.470252994
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977980.473081
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:41.471060803
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977981.473796
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:42.472151048
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977982.477381
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:43.472594585
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977983.475441
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:44.473518389
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977984.476272
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:45.474683781
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977985.479988
+ETH_SIZE:160
+
+_get_MACTest : checkMSGType=10
+
+ Received MESSAGE_TYPE_MY_LABELS_ADD on : eth4 
+
+Timestamp - 2023-05-13 07:39:45.481285493  No. of Tier Addr : 1
+      Tier Address  Length : 5 
+      Number of Tier Address : 1, value of z : 0 
+
+TEST: Node appended successfully 2.2.4
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+ ------- 2.2.4 -----
+
+ My labels are: 1.2 
+
+CONV_TIME:1683977985.483008
+ETH_SIZE:176
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=9
+
+ Received MESSAGE_TYPE_LABELS_ACCEPTED 
+
+Timestamp - 2023-05-13 07:39:45.484406971
+CONV_TIME:1683977985.484514
+ETH_SIZE:176
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth4
+Timestamp - 2023-05-13 07:39:45.486023560
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth4
+
+ Inside generateChildLabel
+ Child port = eth4
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .4
+ After appending the port ID, ChildLabel = 2.2.4
+ childLabel = 2.2.4  strlen(childLabel)=5
+ newLabel->label = 2.2.4  strlen(newLabel->label)=5
+ Created the new child label = 2.2.4
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.4
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.4
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977985.490083
+ETH_SIZE:176
+
+_get_MACTest : checkMSGType=10
+
+ Received MESSAGE_TYPE_MY_LABELS_ADD on : eth4 
+
+Timestamp - 2023-05-13 07:39:45.491292083  No. of Tier Addr : 1
+      Tier Address  Length : 5 
+      Number of Tier Address : 1, value of z : 0 
+
+TEST: Node appended successfully 2.1.2
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+ ------- 2.2.4 -----
+ ------- 2.1.2 -----
+
+ My labels are: 1.2 
+
+CONV_TIME:1683977985.492485
+ETH_SIZE:176
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=9
+
+ Received MESSAGE_TYPE_LABELS_ACCEPTED 
+
+Timestamp - 2023-05-13 07:39:45.493603580
+CONV_TIME:1683977985.493710
+ETH_SIZE:176
+
+_get_MACTest : checkMSGType=9
+
+ Received MESSAGE_TYPE_LABELS_ACCEPTED 
+
+Timestamp - 2023-05-13 07:39:45.495075433
+CONV_TIME:1683977985.495184
+ETH_SIZE:176
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:48.361535453TEST: Message Counter 1
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+Port : eth3
+Port_tag : 2
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977988.364539
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:49.362054500TEST: Message Counter 2
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977989.367614
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:50.362714634TEST: Message Counter 3
+
+ MessageCount >= 3 : eth3
+TEST: Head node removed from stagging value was eth3
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977990.365741
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:51.363212536
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977991.366036
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:52.364276050
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977992.369517
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:53.364841522
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977993.367637
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:54.365760417
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977994.368587
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:55.366568270
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977995.369305
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:56.367358440
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977996.370141
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=10
+
+ Received MESSAGE_TYPE_MY_LABELS_ADD on : eth3 
+
+Timestamp - 2023-05-13 07:39:56.370914343  No. of Tier Addr : 1
+      Tier Address  Length : 5 
+      Number of Tier Address : 1, value of z : 0 
+
+TEST: Node appended successfully 2.1.3
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+ ------- 2.2.4 -----
+ ------- 2.1.2 -----
+ ------- 2.1.3 -----
+
+ My labels are: 1.2 
+
+CONV_TIME:1683977996.371988
+ETH_SIZE:224
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth3
+Timestamp - 2023-05-13 07:39:56.372834488
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth3
+
+ Inside generateChildLabel
+ Child port = eth3
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .3
+ After appending the port ID, ChildLabel = 2.2.3
+ childLabel = 2.2.3  strlen(childLabel)=5
+ newLabel->label = 2.2.3  strlen(newLabel->label)=5
+ Created the new child label = 2.2.3
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.3
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.3
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977996.375604
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=10
+
+ Received MESSAGE_TYPE_MY_LABELS_ADD on : eth3 
+
+Timestamp - 2023-05-13 07:39:56.376471082  No. of Tier Addr : 1
+      Tier Address  Length : 5 
+      Number of Tier Address : 1, value of z : 0 
+
+TEST: Node appended successfully 2.2.3
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+ ------- 2.2.4 -----
+ ------- 2.1.2 -----
+ ------- 2.1.3 -----
+ ------- 2.2.3 -----
+
+ My labels are: 1.2 
+
+CONV_TIME:1683977996.377628
+ETH_SIZE:224
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=9
+
+ Received MESSAGE_TYPE_LABELS_ACCEPTED 
+
+Timestamp - 2023-05-13 07:39:56.378410819
+CONV_TIME:1683977996.378473
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=9
+
+ Received MESSAGE_TYPE_LABELS_ACCEPTED 
+
+Timestamp - 2023-05-13 07:39:56.379187317
+CONV_TIME:1683977996.379245
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:39:59.584304870TEST: Message Counter 1
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+Port : eth1
+Port_tag : 2
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683977999.589944
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:00.584379755TEST: Message Counter 2
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978000.587235
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:01.585083626TEST: Message Counter 3
+
+ MessageCount >= 3 : eth1
+TEST: Head node removed from stagging value was eth1
+
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978001.590801
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:02.585294860
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978002.588145
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:03.585822911
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978003.588570
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:04.586092860
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978004.589839
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:05.586718776
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978005.589420
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:06.587435108
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978006.590170
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:07.588465511
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978007.591414
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=10
+
+ Received MESSAGE_TYPE_MY_LABELS_ADD on : eth1 
+
+Timestamp - 2023-05-13 07:40:07.592118091  No. of Tier Addr : 1
+      Tier Address  Length : 5 
+      Number of Tier Address : 1, value of z : 0 
+
+TEST: Node appended successfully 2.1.4
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+ ------- 2.2.4 -----
+ ------- 2.1.2 -----
+ ------- 2.1.3 -----
+ ------- 2.2.3 -----
+ ------- 2.1.4 -----
+
+ My labels are: 1.2 
+
+CONV_TIME:1683978007.593463
+ETH_SIZE:224
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=7
+
+Received MESSAGE_TYPE_JOIN from : eth1
+Timestamp - 2023-05-13 07:40:07.594330349
+My Tier Value = 1 
+Tier Value of the Requested Node = 2 
+MESSAGE_TYPE_JOIN request received from a node at lower tier 
+Generating the label for the node
+Interface from which the request recvd = eth1
+
+ Inside generateChildLabel
+ Child port = eth1
+ Going through each of my tier addresses , primary address = 1.2
+
+ Current TierAddress = 1.2 
+
+ My TierAddress = 1.2
+ After appending the uid of the parent, childLabel = 2.2 
+ temp = .1
+ After appending the port ID, ChildLabel = 2.2.1
+ childLabel = 2.2.1  strlen(childLabel)=5
+ newLabel->label = 2.2.1  strlen(newLabel->label)=5
+ Created the new child label = 2.2.1
+
+ Exit: generateChildLabel , Number of labels generated = 1 
+
+msg_typ_join : Labels are generated
+
+ msg_typ_join : Creating the payload to send the new labels 2.2.1
+
+ msg_typ_join : labelAssignmentPayLoad(string) = 1
+ label list is not null
+
+ current label in the message = 2.2.1
+
+ msg_typ_join : GETTING THE NEXT LABEL 
+
+ Sending MESSAGE_TYPE_LABELS_AVAILABLE  to all the interface, interfaceListSize = 0 payloadSize=7 
+
+CONV_TIME:1683978007.597177
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=10
+
+ Received MESSAGE_TYPE_MY_LABELS_ADD on : eth1 
+
+Timestamp - 2023-05-13 07:40:07.599852964  No. of Tier Addr : 1
+      Tier Address  Length : 5 
+      Number of Tier Address : 1, value of z : 0 
+
+TEST: Node appended successfully 2.2.1
+
+*************** Neighbor Table *************
+ ------- 1.1 -----
+ ------- 2.2.4 -----
+ ------- 2.1.2 -----
+ ------- 2.1.3 -----
+ ------- 2.2.3 -----
+ ------- 2.1.4 -----
+ ------- 2.2.1 -----
+
+ My labels are: 1.2 
+
+CONV_TIME:1683978007.601171
+ETH_SIZE:224
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=9
+
+ Received MESSAGE_TYPE_LABELS_ACCEPTED 
+
+Timestamp - 2023-05-13 07:40:07.601948592
+CONV_TIME:1683978007.602011
+ETH_SIZE:224
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:19.288868298
+
+TierLen :7 TierAddr: 3.1.2.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+ tablehead == NULL
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+
+
+TierLen :7 TierAddr: 3.2.4.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+
+CONV_TIME:1683978019.291023
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:19.302872456
+
+TierLen :7 TierAddr: 3.1.2.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.4.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:19.305055644
+CONV_TIME:1683978019.305191
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:19.305915803
+
+TierLen :7 TierAddr: 3.2.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+CONV_TIME:1683978019.306490
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:19.307113485
+
+TierLen :7 TierAddr: 3.2.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+CONV_TIME:1683978019.307615
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:19.311477417
+
+TierLen :7 TierAddr: 3.1.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+
+CONV_TIME:1683978019.313277
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:19.313955574
+
+TierLen :7 TierAddr: 3.1.2.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.4.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+CONV_TIME:1683978019.315283
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:19.315905736
+
+TierLen :7 TierAddr: 3.1.3.1
+
+ipLen :4 ipAddr: 10.10.13.0 cidr: 24
+CONV_TIME:1683978019.316407
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:34.229611484
+
+TierLen :7 TierAddr: 3.1.2.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+
+
+TierLen :7 TierAddr: 3.2.4.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+
+
+TierLen :7 TierAddr: 3.2.1.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:34.236139696
+CONV_TIME:1683978034.236283
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:34.237018491
+
+TierLen :7 TierAddr: 3.2.1.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.237559
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:34.238228691
+
+TierLen :7 TierAddr: 3.1.2.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.4.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.1.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.4.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:34.241415031
+CONV_TIME:1683978034.241551
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:34.242571612
+
+TierLen :7 TierAddr: 3.1.2.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.4.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.243382
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:34.244032137
+
+TierLen :7 TierAddr: 3.1.4.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.244563
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:34.245182859
+
+TierLen :7 TierAddr: 3.2.1.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.245714
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:34.246377038
+
+TierLen :7 TierAddr: 3.1.2.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.4.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.1.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.4.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+3.2.3.3                 10.10.14.0/24
+
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:34.249453015
+CONV_TIME:1683978034.249588
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:34.250313675
+
+TierLen :7 TierAddr: 3.2.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.250889
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:34.251542196
+
+TierLen :7 TierAddr: 3.2.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.252042
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:34.252688397
+
+TierLen :7 TierAddr: 3.1.4.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.253219
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:34.253888393
+
+TierLen :7 TierAddr: 3.1.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+3.2.3.3                 10.10.14.0/24
+3.1.3.3                 10.10.14.0/24
+
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:34.256183117
+CONV_TIME:1683978034.256319
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:34.257065756
+
+TierLen :7 TierAddr: 3.2.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.257587
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:34.258245971
+
+TierLen :7 TierAddr: 3.1.2.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.4.2
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.1.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.4.4
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.259698
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:34.260343133
+
+TierLen :7 TierAddr: 3.1.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.260865
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth2
+Timestamp - 2023-05-13 07:40:34.261509684
+
+TierLen :7 TierAddr: 3.1.3.3
+
+ipLen :4 ipAddr: 10.10.14.0 cidr: 24
+CONV_TIME:1683978034.262030
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:41.678297095
+
+TierLen :7 TierAddr: 3.2.3.4
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+3.2.3.3                 10.10.14.0/24
+3.1.3.3                 10.10.14.0/24
+3.2.3.4                 10.10.15.0/24
+
+In buildIPPublishPacket 
+Got a new label 
+
+tier_addr : 3.2.3.4
+ipAddr: 10.10.15.0
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth1 at 
+ endNWSend Called : eth1
+
+Timestamp - 2023-05-13 07:40:41.682434540
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth3 at 
+ endNWSend Called : eth3
+
+Timestamp - 2023-05-13 07:40:41.683137143
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth4 at 
+ endNWSend Called : eth4
+
+Timestamp - 2023-05-13 07:40:41.683813898
+
+TierLen :7 TierAddr: 3.1.3.4
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+3.2.3.3                 10.10.14.0/24
+3.1.3.3                 10.10.14.0/24
+3.2.3.4                 10.10.15.0/24
+3.1.3.4                 10.10.15.0/24
+
+In buildIPPublishPacket 
+Got a new label 
+
+tier_addr : 3.1.3.4
+ipAddr: 10.10.15.0
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth1 at 
+ endNWSend Called : eth1
+
+Timestamp - 2023-05-13 07:40:41.690137765
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth3 at 
+ endNWSend Called : eth3
+
+Timestamp - 2023-05-13 07:40:41.690621715
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth4 at 
+ endNWSend Called : eth4
+
+Timestamp - 2023-05-13 07:40:41.691076090
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:41.691811101
+CONV_TIME:1683978041.692051
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:41.698411115
+
+TierLen :7 TierAddr: 3.2.1.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+3.2.3.3                 10.10.14.0/24
+3.1.3.3                 10.10.14.0/24
+3.2.3.4                 10.10.15.0/24
+3.1.3.4                 10.10.15.0/24
+3.2.1.2                 10.10.15.0/24
+
+In buildIPPublishPacket 
+Got a new label 
+
+tier_addr : 3.2.1.2
+ipAddr: 10.10.15.0
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth1 at 
+ endNWSend Called : eth1
+
+Timestamp - 2023-05-13 07:40:41.706985274
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth3 at 
+ endNWSend Called : eth3
+
+Timestamp - 2023-05-13 07:40:41.707441263
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth4 at 
+ endNWSend Called : eth4
+
+Timestamp - 2023-05-13 07:40:41.707982931
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:41.708591905
+CONV_TIME:1683978041.708746
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:41.709494780
+
+TierLen :7 TierAddr: 3.2.3.4
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.3.4
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.1.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+CONV_TIME:1683978041.710600
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:41.711250756
+
+TierLen :7 TierAddr: 3.2.1.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+CONV_TIME:1683978041.711829
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth3
+Timestamp - 2023-05-13 07:40:41.712486728
+
+TierLen :7 TierAddr: 3.1.4.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+Tier Address            IP Address
+3.1.2.1                 10.10.13.0/24
+3.2.4.1                 10.10.13.0/24
+3.2.3.1                 10.10.13.0/24
+3.1.3.1                 10.10.13.0/24
+3.1.2.2                 10.10.14.0/24
+3.2.4.2                 10.10.14.0/24
+3.2.1.4                 10.10.14.0/24
+3.1.4.4                 10.10.14.0/24
+3.2.3.3                 10.10.14.0/24
+3.1.3.3                 10.10.14.0/24
+3.2.3.4                 10.10.15.0/24
+3.1.3.4                 10.10.15.0/24
+3.2.1.2                 10.10.15.0/24
+3.1.4.2                 10.10.15.0/24
+
+In buildIPPublishPacket 
+Got a new label 
+
+tier_addr : 3.1.4.2
+ipAddr: 10.10.15.0
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth1 at 
+ endNWSend Called : eth1
+
+Timestamp - 2023-05-13 07:40:41.715631324
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth3 at 
+ endNWSend Called : eth3
+
+Timestamp - 2023-05-13 07:40:41.715917973
+Sending MESSAGE_TYPE_PUBLISH_IP_ADD message to - eth4 at 
+ endNWSend Called : eth4
+
+Timestamp - 2023-05-13 07:40:41.716203162
+ endNWSend Called : eth2
+
+Timestamp - 2023-05-13 07:40:41.716616831
+CONV_TIME:1683978041.716753
+ETH_SIZE:232
+CHURN_TRUE
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:41.717491181
+
+TierLen :7 TierAddr: 3.2.3.4
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.3.4
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+
+TierLen :7 TierAddr: 3.2.1.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+
+TierLen :7 TierAddr: 3.1.4.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+CONV_TIME:1683978041.718575
+ETH_SIZE:232
+
+_get_MACTest : checkMSGType=5
+
+ Message 5 on : eth1
+Timestamp - 2023-05-13 07:40:41.719203348
+
+TierLen :7 TierAddr: 3.1.4.2
+
+ipLen :4 ipAddr: 10.10.15.0 cidr: 24
+CONV_TIME:1683978041.719706
+ETH_SIZE:232

@@ -1,0 +1,260 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include "fwdAlgorithmHelper.h"
+#include "boolean.h"
+#include "tierUtils.h"
+
+extern FILE *fptr;
+extern int enableLogScreen;
+extern int enableLogFiles;
+
+/**
+ * checkIfDestUIDSubStringUID(char[],char[])
+ *
+ * method to check if the destination UID is a substring of my UID
+ *
+ * @param destUID (char[]) - destination  UID
+ * @param myUID   (char[]) - current UID
+ *
+ * @return returnValue   (boolean) - algorithm return true if it is
+ 									else false
+ */
+//Method in fwdAlgorith.c
+boolean checkIfDestUIDSubStringUID(char* destUID,char* myUID)
+{
+	if(enableLogScreen)
+		printf("\n myUID = %s destUID=%s",myUID,destUID);
+	if(enableLogFiles)
+   		fprintf(fptr,"\n myUID = %s destUID=%s",myUID,destUID);
+
+	//3.1 //1
+
+	int pos1 = 0;
+	int pos2 = 0;
+
+	while(destUID[pos1] != '\0' && myUID[pos2] != '\0'){
+
+		int destVal = 0;
+
+		while(destUID[pos1] != '\0' && destUID[pos1] != '.'){
+
+		 	destVal = destVal * 10 + destUID[pos1] - '0';
+		 	pos1++;
+		}
+		pos1++;
+
+		int myVal = 0;
+
+		while(myUID[pos2] != '\0' && myUID[pos2] != '.'){
+
+		 	myVal = myVal * 10 + myUID[pos2] - '0';
+		 	pos2++;
+		}
+		pos2++;
+		
+		if(enableLogScreen)
+			printf("\n destVal =%d myVal=%d",destVal,myVal);
+		if(enableLogFiles)
+   			fprintf(fptr,"\n destVal =%d myVal=%d",destVal,myVal);
+
+		if(destVal != myVal){
+			if(enableLogScreen)
+				printf("\n False");
+			if(enableLogFiles)
+   				fprintf(fptr,"\n False");
+			return false;
+		}
+
+	}
+	if(enableLogScreen)
+		printf("\n True");
+	if(enableLogFiles)
+   		fprintf(fptr,"\n True");
+	return true;
+
+}
+
+
+/**
+ * formNextUIDtoTransferInCase3B
+ *
+ * Method that forms the next UID to transfer in case of 3B
+ *
+ * @return boolean
+ */
+//Method in fwdAlgorith.c
+void formNextUIDtoTransferInCase3B(char* nextTierAddress ,char* currentTierAddress,boolean cond  ){
+
+	int i = strlen(currentTierAddress)-1; 
+	int k = 0;
+	int savePos = 0;
+	if(enableLogScreen)
+		printf("\n formNextUIDtoTransferInCase3B : currentTierAddress = %s condition = %s \n",currentTierAddress,
+								(cond == true)?"true":"false");
+	if(enableLogFiles)
+   		fprintf(fptr,"\n formNextUIDtoTransferInCase3B : currentTierAddress = %s condition = %s \n",currentTierAddress,
+								(cond == true)?"true":"false");
+
+	//currentTierAddress = 1.1
+
+	strcpy(nextTierAddress,currentTierAddress);
+
+	//nextTierAddress = 1.1
+
+	i = strlen(nextTierAddress)-1;
+
+	//i = 2
+	
+	while(nextTierAddress[i-1] != '.'){
+		i--;
+	}
+
+	//i = 2
+
+	savePos = i;
+
+	//SavePos = 2
+
+	k = 0;
+	char temp[20];
+	memset(temp,'\0',20);
+
+	//temp = "" 
+	//i = 2 
+
+	while(i < strlen(nextTierAddress))
+	{
+		temp[k] = nextTierAddress[i];
+		k++;
+		i++;
+	}
+
+	//temp = "1"
+
+	int tempPart = atoi(temp);
+
+	//tempPart = 1
+
+	//case 3B: +1 case , cond = true
+	if(cond) 
+	{
+		//tempPart = 2
+		tempPart++;
+	}
+	else
+	{
+	//case 3B: -1 case , cond = true
+		tempPart--;
+	}
+
+	//temp = itoa(tempPart);
+
+	sprintf(temp, "%d", tempPart);
+
+	//temp = "2"
+
+	k = 0;
+
+	//k= 0 strlen(temp) = 2
+	while(k < strlen(temp))
+	{
+		nextTierAddress[savePos] = temp[k];
+		k++;
+		savePos++;
+	}
+	//nextTierAddress = 1.2
+	if(enableLogScreen)
+		printf("\n%s : nextTierAddress = %s Length=%d\n",__FUNCTION__,nextTierAddress,(int)strlen(nextTierAddress));
+	if(enableLogFiles)
+   		fprintf(fptr,"\n%s : nextTierAddress = %s Length=%d\n",__FUNCTION__,nextTierAddress,(int)strlen(nextTierAddress));
+
+}
+
+
+/**
+ * compareUIDs(A,B)
+ *
+ * Method that compares two given UIDs (A and B) and returns true if A < B and False if A > B
+ *
+ * @return boolean
+ */
+//Method in fwdAlgorith.c
+boolean compareUIDs(char* curUID,char* destUID) {
+
+	//compare the UID's of both current NOde and the destination node
+	int ic =0;
+	int id = 0;
+	char curPart[20];
+	char destPart[20];
+	int k;
+	if(enableLogScreen)
+		printf("\n%s : curUID =%s , destUID =%s",__FUNCTION__,curUID,destUID);
+	if(enableLogFiles)
+   		fprintf(fptr,"\n%s : curUID =%s , destUID =%s",__FUNCTION__,curUID,destUID);
+
+	while( curUID[ic] != '\0' && destUID[id] != '\0' ){
+
+		k  =0;
+		while(curUID[ic]  != '\0' && curUID[ic] != '.'){
+			curPart[k++] = curUID[ic];
+			ic++;
+		}
+		curPart[k++] = '\0';
+
+		k  =0;
+		while(destUID[id] != '\0' && destUID[id] != '.'){
+			destPart[k++] = destUID[id];
+			id++;
+		}
+		destPart[k++] = '\0';
+
+		int curPartVal = atoi(curPart);
+		int destPartVal = atoi(destPart);
+		if(enableLogScreen)
+			printf("\n %s: comparing UIDS curPartVal=%d destPartVal=%d ",__FUNCTION__,curPartVal,destPartVal);
+		if(enableLogFiles)
+   			fprintf(fptr,"\n %s: comparing UIDS curPartVal=%d destPartVal=%d ",__FUNCTION__,curPartVal,destPartVal);
+
+		if(curPartVal < destPartVal){
+			if(enableLogScreen)
+				printf("\n%s : curPartVal < destPartVal",__FUNCTION__);
+			if(enableLogFiles)
+   				fprintf(fptr,"\n%s : curPartVal < destPartVal",__FUNCTION__);
+			return true;
+		}
+		else if(curPartVal > destPartVal){
+			if(enableLogScreen)
+				printf("\n%s : curPartVal < destPartVal",__FUNCTION__);
+			if(enableLogFiles)
+   				fprintf(fptr,"\n%s : curPartVal < destPartVal",__FUNCTION__);
+			return false;
+		}
+		else{
+			//equal case
+			//continue
+			ic++;
+			id++;
+			memset(curPart,'\0',20);
+
+			memset(destPart,'\0',20);
+		}
+	}
+
+	if(destUID[id] != '\0' ){
+		if(enableLogScreen)
+			printf("%s : destUID is still left",__FUNCTION__);
+		if(enableLogFiles)
+   			fprintf(fptr,"%s : destUID is still left",__FUNCTION__);
+		return false;	
+	}
+	if(enableLogScreen)
+		printf("%s: Some error!! ",__FUNCTION__);
+	if(enableLogFiles)
+   		fprintf(fptr,"%s: Some error!! ",__FUNCTION__);
+	return true; //Should never come to this case as destID is always > curID length
+
+}
+
