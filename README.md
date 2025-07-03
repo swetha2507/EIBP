@@ -2,11 +2,11 @@
 
 EIBP is a clean-slate, scalable routing protocol designed to overcome limitations in traditional internet routing protocols like OSPF and BGP. It operates at Layer 2.5, in parallel with IP, enabling faster routing, auto-addressing, and seamless inter-AS communication.
 
-## 💡 What is EIBP?
+## What is EIBP?
 
 EIBP (Expedited Internet Bypass Protocol) introduces a modular and intelligent routing scheme that avoids flooding, simplifies configuration, and supports fault-tolerant communication across autonomous systems (AS). 
 
-## ⚙️ How EIBP Works
+## How EIBP Works
 
 - **Modular Architecture**: Networks are divided into three router tiers:
   - Core Routers (CR)
@@ -23,7 +23,7 @@ EIBP (Expedited Internet Bypass Protocol) introduces a modular and intelligent r
 
 - **Fast Failure Recovery**: Hello messages are used for quick detection of router failures and automatic path re-routing.
 
-## 🧠 Key Features
+## Key Features
 
 - Operates independently from IP (Layer 2.5)
 - Efficient packet forwarding without flooding
@@ -33,6 +33,6 @@ EIBP (Expedited Internet Bypass Protocol) introduces a modular and intelligent r
 - Simplified inter-AS communication
 - Backward-compatible with existing IP networks
 
-## 🎓 Project Context
+## Project Context
 
 This project was part of a research initiative under the guidance of **Dr. Nirmala Shenoy**, exploring scalable alternatives to traditional routing protocols for future internet architectures.
